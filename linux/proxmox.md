@@ -29,10 +29,10 @@ GRUB_CMDLINE_LINUX="pci=noaer"
 3. **disable services that pacman ssd to REDUCE SSD wearout** *
 
 ```xml
-systemctl to stop & disable pve-ha-lrm/pve-ha-crm  
-systemctl stop pve-ha-lrm 
-systemctl disable pve-ha-lrm 
-systemctl disable pve-ha-lrm 
+systemctl to stop & disable pve-ha-lrm/pve-ha-crm 
+systemctl stop pve-ha-lrm
+systemctl disable pve-ha-lrm
+systemctl disable pve-ha-lrm
 systemctl stop pve-ha-lrm
 ```
 
